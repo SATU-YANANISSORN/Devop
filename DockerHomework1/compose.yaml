@@ -1,0 +1,9 @@
+name: dockerComposeTutorialProject
+services:
+  webapp:
+    build: 
+      dockerfile: Dockerfile
+    image: web-app-python
+    container_name: webapp-service
+    ports:
+      - "5000:5000"
