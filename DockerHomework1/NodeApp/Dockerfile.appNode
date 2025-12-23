@@ -1,0 +1,7 @@
+FROM node:lts-alpine
+WORKDIR /containerApp/AppNODE
+COPY package.json .
+RUN npm install --no-cache-dir -r package.json
+COPY . .
+EXPOSE 4000
+CMD [ "node","app.js" ]
