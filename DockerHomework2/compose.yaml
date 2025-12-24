@@ -1,0 +1,17 @@
+name: ServerProxyAndBackend
+
+services:
+  gateway:
+    image: nginx:alpine
+    ports:
+      - "2025:2026"
+    container_name: HappynewYear
+    volumes: 
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./Mysites:/usr/share/nginx/html:ro
+  backend:
+    build: 
+      context: ./Mysites
+      dockerfile: Dockerfile.node
+
+    

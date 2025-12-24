@@ -1,0 +1,44 @@
+2025/12/23 23:38:25 [error] 3088#7012: *1 CreateFile() "C:\nginx-1.29.4/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/12/24 12:22:53 [emerg] 46796#40020: no "events" section in configuration
+2025/12/24 12:29:32 [emerg] 35788#4028: no "events" section in configuration
+2025/12/24 12:32:19 [emerg] 19412#40660: directive "include" is not terminated by ";" in C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/conf/nginx.conf:6
+2025/12/24 12:32:34 [emerg] 7984#46348: directive "include" is not terminated by ";" in C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/conf/nginx.conf:6
+2025/12/24 12:32:59 [notice] 47468#42732: signal process started
+2025/12/24 12:50:09 [notice] 18468#47660: signal process started
+2025/12/24 12:51:02 [notice] 43588#21716: signal process started
+2025/12/24 12:52:16 [notice] 18224#13724: signal process started
+2025/12/24 12:53:12 [notice] 14644#21644: signal process started
+2025/12/24 12:54:44 [notice] 34012#14556: signal process started
+2025/12/24 12:54:57 [notice] 43492#34432: signal process started
+2025/12/24 13:16:57 [notice] 41196#45196: signal process started
+2025/12/24 13:18:55 [notice] 32064#17660: signal process started
+2025/12/24 13:20:48 [emerg] 11588#13916: unexpected "}" in C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/conf/nginx.conf:12
+2025/12/24 13:20:52 [emerg] 10488#40376: unexpected "}" in C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/conf/nginx.conf:12
+2025/12/24 13:22:35 [notice] 28104#48872: signal process started
+2025/12/24 13:23:08 [notice] 43224#48424: signal process started
+2025/12/24 13:24:16 [notice] 38192#13984: signal process started
+2025/12/24 13:31:05 [notice] 40104#28828: signal process started
+2025/12/24 13:31:48 [notice] 15728#10164: signal process started
+2025/12/24 13:33:16 [notice] 30856#15984: signal process started
+2025/12/24 13:35:24 [notice] 6968#43476: signal process started
+2025/12/24 13:40:41 [notice] 25644#48044: signal process started
+2025/12/24 13:49:18 [notice] 8752#3780: signal process started
+2025/12/24 13:50:36 [notice] 44816#29680: signal process started
+2025/12/24 13:52:47 [notice] 37416#24224: signal process started
+2025/12/24 13:52:55 [error] 30176#38076: *1 CreateFile() "C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/../Mysites/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2025/12/24 16:42:28 [notice] 39836#26972: signal process started
+2025/12/24 16:42:31 [notice] 19304#26344: signal process started
+2025/12/24 16:53:38 [notice] 15904#42248: signal process started
+2025/12/24 16:54:50 [notice] 2960#28384: signal process started
+2025/12/24 17:15:12 [emerg] 48216#8284: "location" directive is not allowed here in C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/conf/nginx.conf:11
+2025/12/24 17:15:36 [notice] 32936#24464: signal process started
+2025/12/24 17:15:58 [error] 32096#48156: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /date HTTP/1.1", upstream: "http://[::1]:3000/date", host: "localhost"
+2025/12/24 17:16:00 [error] 32096#48156: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /date HTTP/1.1", upstream: "http://127.0.0.1:3000/date", host: "localhost"
+2025/12/24 19:46:57 [notice] 27468#32928: signal process started
+2025/12/24 21:37:29 [notice] 41132#46176: signal process started
+2025/12/24 21:37:41 [error] 46460#22668: *10 CreateFile() "C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/../Mysites/getapi" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /getapi HTTP/1.1", host: "localhost"
+2025/12/24 21:38:38 [error] 46460#22668: *10 CreateFile() "C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/../Mysites/getapi" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /getapi HTTP/1.1", host: "localhost"
+2025/12/24 21:39:12 [error] 46460#22668: *10 CreateFile() "C:\Users\satu2_jqkxb38\Documents\GitHub\Devop\DockerHomework2\nginx-1.29.4/../Mysites/getapi" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /getapi HTTP/1.1", host: "localhost"
+2025/12/24 21:41:48 [notice] 31856#47740: signal process started
+2025/12/24 21:42:49 [error] 30136#34284: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /date HTTP/1.1", upstream: "http://127.0.0.1:3000/date", host: "localhost"
+2025/12/24 21:42:51 [error] 30136#34284: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /date HTTP/1.1", upstream: "http://[::1]:3000/date", host: "localhost"

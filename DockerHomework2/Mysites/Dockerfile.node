@@ -1,0 +1,7 @@
+FROM node:lts-alpine
+WORKDIR /containerApp/Nodeapp
+COPY package.json .
+RUN npm install --no-cache-dir -r package.json
+COPY . .
+EXPOSE 2026
+CMD [ "node","getDate.js" ]
